@@ -1,0 +1,366 @@
+body{
+  display: inline;
+  /* background-color:black; */
+}
+.nav-cl{
+  margin-top:0px;
+}
+
+nav {
+   
+    /* background-color: #b26c9e; */
+    background-color: #FCC8D1;
+   color:black;
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+  }
+  h1{
+    margin-left: 10px;
+    font-style:italic;
+    font-weight:200px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    
+    display: inline;
+  }
+  
+  nav ul li a {
+    font-size: italic;
+    display: inline-block;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgb(56, 56, 145);
+    border-radius: 5px;
+    color:white;
+  }
+
+  .f1 {
+    background-color: #FEF2F4;
+    align-items: center;
+    display:flex;
+    padding:100px 150px ;
+    width:80%;
+    height:80%;
+  }
+  .f1-h{
+    padding-right:100px;
+    color:black;
+  }
+
+  .f1-h p{
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight:100px;
+    color:black;
+    font-size:20px;
+ }
+ .f1-img img{
+    border-radius:50%;
+    /* border-color:1px solid rgb(113, 113, 228); */
+    width:300px;
+    height:300px;
+    float:right;
+ }
+ .about{
+    background-color:  #FEF2F4;
+    
+    width:100%;
+    height:50%;
+ }
+ .about .about-h{
+   /* background-color:  #ADD8E6; 
+   background-color: #d1adcc;*/
+   background-color: #FCC8D1;
+   font-size: 30px;
+   padding:20px 10px;
+   font-style:italic;
+   font-weight:200px;
+   text-align: center;
+ }
+ .f2-h{
+  color:black;
+  padding-top:70px;
+ }
+
+ .f2{
+    display:flex;
+    width:100%;
+    height:500px;
+ }
+ .f2-img img{
+    border-radius:10px;
+    border-color:1px solid rgb(197, 41, 211);
+    width:300px;
+    height:300px;
+    float:left;
+    padding-left:30px;
+    margin:60px 50px;
+ }
+ 
+ .f2-h .points .left{
+    float:left;
+ }
+ .f2-h .points .right
+ {
+    float:right;
+ }
+ .but{
+  background-color:#e953c1;
+  border-radius:5px;
+ }
+ .pdf-link{
+ display: inline-block;
+ padding: 10px 20px;
+ color: white;
+ text-decoration: none;
+ border-radius: 10px;
+ font-size: 16px;
+ }
+.but:hover{
+    background-color:rgb(46, 150, 215);
+    border-radius: 5px;
+    padding: 5px 5px;
+ }
+ 
+ .skills p{
+  font-size: 30px;
+  padding:20px 10px;
+  font-style:italic;
+  font-weight:100px;
+  background-color: #FCC8D1;
+   color:black;
+   text-align: center;
+ }
+  .f3{
+    background-color:  #FEF2F4;
+ }
+ 
+ .skill-name{
+    font-size:20px;
+ }
+ .skill-rating {
+    color: #f1c40f; /* Color for filled stars */
+    font-size: 24px; /* Adjust the size of stars */
+}
+
+.star {
+    display: inline-block;
+    margin-right: 3px; /* Adjust spacing between stars */
+}
+.left-skills .skill-level {
+    display: flex;;
+    font-size: 16px; /* Adjust the size of the skill level */
+    color: black;
+    margin-top: 5px; /* Adjust the spacing between skill rating and level */
+}
+.right-skills .skill-level {
+  display: flex;;
+  font-size: 16px; /* Adjust the size of the skill level */
+  padding-right:10px;
+  color: black;
+  margin-top: 5px; /* Adjust the spacing between skill rating and level */
+}
+.left-skills {
+  background-color: #FEF2F4;
+    margin-left: 300px;
+    float: left; /* Align the left-side skills to the left */
+}
+
+.right-skills {
+  background-color: #FEF2F4;
+    float: right; /* Align the right-side skills to the right */
+    margin-right:300px;
+}
+.skill-info {
+    display: inline-flex;
+    align-items: center;
+    padding:10px;
+
+}
+
+.skill-logo {
+    width: 50px; /* Adjust the width of the skill logos */
+    height: 50px; /* Adjust the height of the skill logos */
+    margin-right: 5px; /* Adjust the spacing between the logo and the skill name */
+}
+
+.skill-name {
+    font-weight: bold;
+}
+
+  section.ed{
+    margin-top:500px;
+   
+    height:400px;
+  }
+.ed .f4-ed #edu {
+   margin-top: 50px;
+   padding: 20px;
+   width:100%;
+ }
+ .edu{
+  display:inline;
+ }
+ 
+ #edu .heading {
+  font-size: 30px;
+  padding:20px 10px;
+  font-style:italic;
+  font-weight:100px;
+  background-color: #FCC8D1;
+  color:black;
+   text-align: center;
+ 
+ }
+ 
+ .school {
+   align-items: center;
+   display: inline;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   width:100%;
+   margin-bottom:70px;
+ }
+ 
+ .school-info {
+ 
+   width:90%;
+   display:flex;
+    height:50%;
+   /* width: calc(33.33% - 10px); */
+   margin-left:5%;
+   margin-bottom: 10px;
+   background-color: #FEF2F4;
+   color:black;
+   border-radius: 5px;
+   padding: 10px;
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+ }
+ .school-details{
+      float:left;
+      text-align:center;
+      padding-left: 200px;
+      padding-top:10px;
+ }
+ .school-info h2 {
+   font-size: 20px;
+   margin-top: 0;
+   margin-bottom: 10px;
+ }
+ 
+ .school-info p {
+   text-align: center;
+   padding:3px;
+   margin: 0;
+   font-size: 18px;
+ }
+ 
+ .school-img img {
+   margin-left:100px;
+  
+   float:right;
+   width: 50%;
+   border-radius: 15px;
+ }
+ 
+ /* @media (max-width: 768px) {
+   .school-info {
+     width: 100%;
+   }
+ }
+  */
+  .f5{
+    margin-top:150px;
+   width:100%;
+   justify-content: space-around;
+  }
+  .cert-heading{
+    background-color: #FCC8D1;
+    color:black;
+   text-align: center;
+   font-size: 30px;
+   padding:20px 10px;
+   font-style:italic;
+   font-weight:100px;
+
+  }
+  .cert-det{
+    padding: 80px 30px 80px 30px;
+   display: flex;
+   background-color: #FEF2F4;
+  }
+  .cert-det img{
+   margin-top: 20px;
+   width:300px;
+   height: 280px;
+   padding:10px;
+   justify-content: space-between;
+   margin-bottom: 20px;
+  }
+  .cert-det img:hover{
+   
+   opacity: 1;
+   -webkit-transform:scale(1.15);
+   -moz-transform:scale(1.15);
+   -ms-transform:scale(1.15);
+   -o-transform:scale(1.15);
+   transform:scale(1.15);
+  }
+
+  .contact {
+   max-width: 400px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #FCC8D1;
+   border-radius: 10px;
+ }
+ 
+ .contact h1 {
+   text-align: center;
+ }
+ 
+ .contact form {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .contact label {
+   margin-top: 10px;
+ }
+ 
+ .contact input[type="text"],
+ input[type="email"],input[type="phone"],
+ textarea {
+   padding: 10px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ }
+ 
+.contact input[type="submit"] {
+   padding: 10px;
+   background-color:#D14D72;
+  
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+.contact input[type="submit"]:hover {
+  background-color: #1b4169;
+  
+ }
+ 
